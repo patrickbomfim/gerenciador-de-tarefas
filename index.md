@@ -1,4 +1,125 @@
----
-title: bem vindo a o meu site
----
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestão de Tarefas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <h1>gerenciador de tarefas</h1>
+            </div>
+            <div class="nav-links">
+                <a href="#features">Recursos</a>
+                <a href="#pricing">Preços</a>
+                <a href="#contact">Contato</a>
+                <button class="btn-primary">Começar Grátis</button>
+            </div>
+        </nav>
+    </header>
 
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Gestão de Tarefas Gratuita</h1>
+                <p>Organize e gerencie sua equipe com maestria com nossa ferramenta gratuita de gerenciamento de tarefas.</p>
+                <button class="btn-primary btn-large">Obter Agora</button>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <h2>Por que escolher nossa plataforma?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-check-circle"></i>
+                    <h3>Totalmente Gratuito</h3>
+                    <p>Comece agora mesmo sem cartão de crédito</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Usuários Ilimitados</h3>
+                    <p>Gerencie sua equipe sem restrições</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-tasks"></i>
+                    <h3>Fácil de Usar</h3>
+                    <p>Interface intuitiva e moderna</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Relatórios Detalhados</h3>
+                    <p>Acompanhe o progresso da sua equipe</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing" class="pricing">
+            <h2>Planos Disponíveis</h2>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Gratuito</h3>
+                    <div class="price">R$ 0</div>
+                    <ul>
+                        <li>Usuários ilimitados</li>
+                        <li>5GB de armazenamento</li>
+                        <li>Ferramentas básicas</li>
+                    </ul>
+                    <button class="btn-secondary">Começar Agora</button>
+                </div>
+                <div class="pricing-card featured">
+                    <h3>Pro</h3>
+                    <div class="price">R$ 49/mês</div>
+                    <ul>
+                        <li>Tudo do plano gratuito</li>
+                        <li>50GB de armazenamento</li>
+                        <li>Recursos avançados</li>
+                        <li>Suporte prioritário</li>
+                    </ul>
+                    <button class="btn-primary">Escolher Pro</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Entre em Contato</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Nome" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Mensagem" required></textarea>
+                <button type="submit" class="btn-primary">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>gerenciador de tarefas</h4>
+                <p>Sua solução completa para gestão de tarefas</p>
+            </div>
+            <div class="footer-section">
+                <h4>Links Rápidos</h4>
+                <a href="#features">Recursos</a>
+                <a href="#pricing">Preços</a>
+                <a href="#contact">Contato</a>
+            </div>
+            <div class="footer-section">
+                <h4>Contato</h4>
+                <p>Email: patrick.brasil.bc@gmail.com</p>
+                <p>Tel: (11) 9999-9999</p>
+            </div>
+            <div>
+                <h3>desenvolvedores</h3>
+                 <p3>patrick brasil</p3>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy;2025 . Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html> 
